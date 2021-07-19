@@ -1,0 +1,12 @@
+{
+  "name": "Navigate on weebtoon chapters with your keyboard arrows",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Navigate on weebtoon chapters with your keyboard arrows",
+  "content_scripts": [
+    {
+      "matches": ["https://www.webtoons.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
